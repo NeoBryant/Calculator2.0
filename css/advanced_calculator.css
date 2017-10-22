@@ -1,0 +1,120 @@
+
+body {
+    text-align: center;
+
+    background-image: url(../img/bcimg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 200%;
+}
+
+#title {
+    font-family: Apple;
+    font-size: 60px;
+
+    margin: 40px 0 30px 0;
+}
+
+#calculator_position {
+    overflow: hidden;
+}
+
+#container {
+    width: 500px;
+    height: 480px;
+    margin: 0 auto;
+    margin-top: 0;
+
+    opacity: 1;
+    border-radius: 10%;
+    background-color: #131313;
+}
+
+#screen {
+    margin: 30px 0 10px 0;
+}
+
+#input {
+    font-size: 30px;
+
+    position: relative;
+    
+
+    width: 440px;
+    height: 80px;
+	margin-top: 40px; 
+    text-align: right;
+
+    color: white;
+    border: 0px;
+    background-color: #131313;
+
+    direction: ltr;
+
+    outline: none;
+}
+#buttons {
+    position: relative;
+    left: 8px;
+
+    width: 484px;
+    height: 350px;
+    margin-top: 5px;
+}
+
+#buttons .button {
+    font-size: 20px;
+
+    width: 55px;
+    height: 55px;
+    margin: 6px 4px 6px 4px;
+
+    text-align: center;
+
+    color: white;
+    border: 0;
+    border-radius: 50%;
+    background-color: #333;
+
+    outline:none;
+}
+
+#buttons .button:hover {
+    cursor: pointer;
+
+    opacity: .5;
+}
+
+#buttons .button:active {
+    cursor: pointer;
+
+    opacity: .9;
+}
+
+#buttons .right_bottons {
+    background-color: #eb8905;
+}
+
+#buttons .bottom_bottons {
+    color: black;
+    background-color: #a5a5a5;
+}
+
+#buttons .advanced_bottons {
+    background-color: #1c1c1c;
+}
+
+#icon {
+    margin-top: 40px;
+
+    opacity: .7;
+}
+
+#icon:hover {
+    opacity: 1;
+}
+
+#icon img {
+    width: 5%;
+    height: 5%;
+}
